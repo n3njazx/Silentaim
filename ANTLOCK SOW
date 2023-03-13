@@ -1,0 +1,26 @@
+--< DM fear#0004 for help >--
+
+--< Aimviewer Settings >--
+AimviewerToggleKeybind = "z" -- Aimviewer toggle keybind
+AimviewerSwitchKeybind = "x" -- Switch player keybind
+AimviewerColor = Color3.fromRGB(4, 54, 218) -- Color of Aimviewer beam
+AimviewerBeamWidth = 0.3 -- Width of Aimviewer beam
+AimviewerMaterial = "Neon" -- Material of Aimviewer beam (if material is invalid it will default to neon)
+
+
+--< Desync Settings >--
+DesyncKeybind = "v" -- Desync toggle keybind
+DesyncOffset = 3 -- Desync Offset
+
+--< Antilock >--
+AntiKeybind = "c" -- Antilock toggle keybind
+AntiVelocity = 1450,1450,1450 -- Only change this if yk what youre doing
+
+--< Miscallaneous >--
+icon = "rbxassetid://12319510751" -- Notification Image
+console = true -- Console Toggle [True = Enabled, False = Disabled]
+consolename = ".gg/aimviewer" -- Console Name
+consolecolor = "@@BLUE@@" -- Console Text Color
+
+--------------------------------------------------------------------------------
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fear0004/script/main/endlockers"))()
